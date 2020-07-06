@@ -14,6 +14,7 @@ namespace RoomCalculator
 
             double length;
             double width;
+            double height;
             string input;
 
             Console.WriteLine("Welcome to Grand Circus' Room Detail Generator!");
@@ -26,23 +27,30 @@ namespace RoomCalculator
                 length = GetMeasurement();
                 Console.WriteLine("Please Enter the Width of the room");
                 width = GetMeasurement();
+                Console.WriteLine("Please Enter the Heigth of the room");
+                height = GetMeasurement();
+
                 double area = length * width;
                 double perimeter = length * 2 + width * 2;
-
-                PrintOutput(area, perimeter);
+                double volume = height * area;
+                
+                PrintOutput(area, perimeter, volume);
 
                 Console.Write("Continue? y/n: ");
                 input = Console.ReadLine();
             } while (input == "Y" || input == "y");
-
+            Console.WriteLine();
+            Console.WriteLine("Thank you for using the Room Detail Generator!");
 
         }
 
-        static void PrintOutput(double area, double perimeter)
+        static void PrintOutput(double area, double perimeter, double volume)
         {
-            Console.WriteLine($"Area: {area}");
-            Console.WriteLine($"Perimeter: {perimeter}");
+            Console.WriteLine($"Area: {area}sqft");
+            Console.WriteLine($"Perimeter: {perimeter}ft");
             RoomSize(area);
+            Console.WriteLine($"Volume: {volume} cubic feet");
+            Console.WriteLine();
         }
 
         static void RoomSize(double area)
@@ -76,7 +84,7 @@ namespace RoomCalculator
             inches = double.Parse(Entry);
 
             inches = inches / 12;
-            total = feet = inches;
+            total = feet + inches;
             return total;
         }
     }
