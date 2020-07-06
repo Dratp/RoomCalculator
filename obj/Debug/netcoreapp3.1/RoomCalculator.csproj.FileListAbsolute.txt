@@ -1,0 +1,13 @@
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.exe
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.deps.json
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.runtimeconfig.json
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.runtimeconfig.dev.json
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.dll
+C:\DevBuild4\RoomCalculator\bin\Debug\netcoreapp3.1\RoomCalculator.pdb
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.csprojAssemblyReference.cache
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.AssemblyInfoInputs.cache
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.AssemblyInfo.cs
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.csproj.CoreCompileInputs.cache
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.dll
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.pdb
+C:\DevBuild4\RoomCalculator\obj\Debug\netcoreapp3.1\RoomCalculator.genruntimeconfig.cache
